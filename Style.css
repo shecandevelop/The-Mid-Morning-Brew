@@ -1,18 +1,14 @@
-@media (width < 600px){
-    .html { font-size: .75rem; }
-}
-@media (width >= 600px) 
 
 * {box-sizing: border-box;}
 header, footer {
-    height: 100px;
+    min-height: 100px;
     clear: both;
 }
 
 
 section {
-    height: 480px;
-    width: 33.3333%;
+    min-height: 480px;
+    max-width: 33.3333%;
     padding-top: 45px;
     padding-bottom: 55px;
     float: left;
@@ -20,7 +16,7 @@ section {
 }
 
 .headersection{
-    height: 180px;
+    min-height: 180px;
     border-bottom: 5px solid black;
     background-color: black;
     padding-top: 2px;
@@ -28,7 +24,7 @@ section {
 }
 
 .weatherapp{
-    height: 20px;
+    min-height: 20px;
 }
 
 .toph1 {
@@ -65,8 +61,8 @@ section p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    height: 55%;
+    max-width: 70%;
+    min-height: 55%;
     border-radius: 8px;
 }
 
