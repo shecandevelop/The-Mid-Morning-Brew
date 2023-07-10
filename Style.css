@@ -1,7 +1,7 @@
 
 * {box-sizing: border-box;}
 header, footer {
-    min-height: 100px;
+    min-height: 300px;
     clear: both;
 }
 
