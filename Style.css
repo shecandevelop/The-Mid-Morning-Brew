@@ -102,3 +102,9 @@ footer {
         float:none; display:block; width: 100%;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    section {
+        width: 33.3333%;
+    }
+}
