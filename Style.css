@@ -10,18 +10,9 @@ header, footer {
     }
 }
 
-@media screen and (min-width: 1800px) {
-    section {
-        width: 24.3333%;
-    }
-    footer {
-        padding-top: 20px;
-    }
-}
-
 section {
     height: 480px;
-    width: 33.3333%;
+    width: 24.3333%;
     padding-top: 45px;
     padding-bottom: 55px;
     float: left;
