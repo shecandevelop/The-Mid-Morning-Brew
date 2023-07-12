@@ -4,16 +4,21 @@ header, footer {
     clear: both;
 }
 
-section {
+@media all and (max-width: 700px) {
+    section {
+        float:none; display:block; width: 100%;
+    }
+}
+
+@media (width > 700px) {
+    section {
     height: 480px;
     width: 33.3333%;
     padding-top: 45px;
     padding-bottom: 55px;
     float: left;
-    background-color: white;
-}
-
-
+    background-color: white;}
+    } 
 
 .headersection{
     min-height: 100px;
@@ -97,14 +102,4 @@ footer {
     color: white;
 }
 
-@media all and (max-width: 700px) {
-    section {
-        float:none; display:block; width: 100%;
-    }
-}
 
-@media screen and (min-width: 1400px) {
-    body {
-        width: 100%;
-    }
-}
