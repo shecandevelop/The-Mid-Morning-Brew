@@ -4,10 +4,10 @@ header, footer {
     clear: both;
 }
 
-#parent {
+/*#parent {
     display: flex;
     flex-wrap: wrap;
-}    
+}*/    
 
 @media all and (max-width: 700px) {
     section {
