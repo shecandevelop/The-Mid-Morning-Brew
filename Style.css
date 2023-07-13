@@ -9,15 +9,15 @@ header, footer {
     flex-wrap: wrap;
 }*/    
 
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     section {
         float:none; display:block; width: 100%;
     }
 }
 
 section {
-    min-height: 480px;
-    max-width: 24.3333%;
+    height: 50%;
+    width: 24.3333%;
     padding-top: 45px;
     padding-bottom: 55px;
     float: left;
