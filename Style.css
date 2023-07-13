@@ -17,7 +17,7 @@ header, footer {
 
 section {
     min-height: 480px;
-    width: 24.3333%;
+    min-width: 24.3333%;
     padding-top: 45px;
     padding-bottom: 55px;
     float: left;
