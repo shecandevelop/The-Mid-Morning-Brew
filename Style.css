@@ -27,7 +27,7 @@ section {
 }
 
 .toph1 {
-    color: white;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     text-align: center;
@@ -36,7 +36,7 @@ section {
 
 header h3 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
 }
